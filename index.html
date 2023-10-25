@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <script type="module" src="./chatcontainer.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            Interactive Dashboard
+        </div>
+
+        <!-- Content Wrapper -->
+        <div class="content-wrapper">
+
+            <!-- Side Navigation -->
+            <div class="side-nav">
+                <ul>
+                    <li class="tab" data-tab="dashboard">Dashboard</li>
+                    <li class="tab" data-tab="messages">Messages</li>
+                    <li class="tab" data-tab="profile">Profile</li>
+                    <li class="tab" data-tab="notifications">Notifications</li>
+                    <li class="tab" data-tab="consultations">Consultations</li>
+                </ul>
+            </div>
+
+            <!-- Main Content Area -->
+            <div class="main-content" id="main-content">
+                <chat-container></chat-container>
+            </div>
+        </div>
+
+    </div>
+    <!-- <script type="module" src="./script.js"></script> -->
+    
+</body>
+
+</html>
